@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "\"Application meant for understanding Node JS Server\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"Test",
+    "App\""
+  ],
+  "author": "\"Arul\"",
+  "license": "ISC"
+}

@@ -1,0 +1,63 @@
+var a = 10; let b = 20; const c = 30;
+
+console.log(a); // Output: 10
+console.log(b); // Output: 20
+console.log(c); // Output: 30
+
+a = 15; b = 25; // c = 35; // Throws TypeError: Assignment to constant variable.
+
+console.log(a); // Output: 15
+console.log(b); // Output: 25
+console.log(c); // Output: 30
+
+
++Math
+
+document.getElementById("demo").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+
+
+// program to loop through an object using for...in loop
+
+const student = { 
+    name: 'John',
+    age: 20,
+    hobbies: ['reading', 'games', 'coding'],
+};
+
+// using for...in
+for (let key in student) { 
+    let value;
+
+    // get the value
+    value = student[key];
+
+    console.log(key + " - " +  value); 
+} 
+
+
+function greet() {
+    console.log("Hello there");
+}
+
+// program to add a key/value pair to an object
+
+const person = {
+    name: 'Monica',
+    age: 22,
+    gender: 'female'
+}
+
+// add a key/value pair
+person.height = 5.4;
+
+console.log(person);
+
+

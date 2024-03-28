@@ -1,0 +1,12 @@
+.italic {
+    color:yellow;
+    background-color: cadetblue;
+}
+
+#hello1{
+    font-style:italic;
+}
+
+.main-section {
+    color: pink;
+}

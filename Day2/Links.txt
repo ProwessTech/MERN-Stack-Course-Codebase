@@ -1,0 +1,15 @@
+
+
+Day 1 Basics HTML:
+https://pastecode.io/s/qd1wn0ev
+Basic Contact Form:
+https://pastecode.io/s/2bi709eh
+Materialize Placeholder Text
+https://pastecode.io/s/d5cra35x
+JavaScript Demo
+https://pastecode.io/s/vwdivz4p
+Calculator Code
+https://pastecode.io/s/wz0457hc
+Day2 Task: -> 
+Create a Calculator with different formatting using CSS and add your name
+arulfrances@gmail.com

@@ -1,0 +1,6 @@
+Day 6 Tasks:
+1. Create a Contact Form with a button to submit javascript function to alert the data
+2. Create a Calculator using Javascript function
+3. FamiloiNode Js installation
+4. NPM Packages
+5. Express, Node JS Server

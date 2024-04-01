@@ -1,0 +1,6 @@
+Day 7 Tasks:
+
+1. Try EJS
+2. Try to use static packages in express
+3. Try to build a resume and host in Express, Node JS Server
+

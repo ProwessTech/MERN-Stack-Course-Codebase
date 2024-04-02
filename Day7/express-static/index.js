@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
+
+console.log(__dirname+"Line 6");
 app.use(express.static(path.join(__dirname,'public')));
 app.use(express.static(path.join(__dirname,'assets')));
 app.use(express.static(path.join(__dirname,'assets','images','flower')));

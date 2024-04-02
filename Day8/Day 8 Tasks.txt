@@ -1,0 +1,3 @@
+Day 8 Task:
+1. Create a EJS based React Project
+2. Create a fresh react App -> Basic edits with new image and your name

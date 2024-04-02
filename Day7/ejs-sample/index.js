@@ -8,7 +8,7 @@ app.set('view engine','ejs');
 
 
 app.get("/", function(req,res){
-    res.render("welcome",{name: 'Arul'});
+    res.render("welcome",{name: 'Arul',country: 'India', state:'Tamil Nadu', city:'Coimbatore',Nationality:'Indian'});
 });
 
 app.listen(5000, function(req,res){

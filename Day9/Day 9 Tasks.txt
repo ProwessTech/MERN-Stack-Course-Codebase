@@ -1,0 +1,5 @@
+Day 9 Tasks:
+
+1. Install nodemon globally
+2. Create new react without installing nodemon again and check whether nodemon runs the package
+3. Create new npx react project and try to modify the codes

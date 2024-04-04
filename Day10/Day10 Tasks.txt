@@ -1,0 +1,4 @@
+Day10 Tasks:
+
+1. Call Random Jokes API and console the data
+2. Try to use useState() Hook to change the country based on Dropdown list in a Paragraph Tag

@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-   <> <div className="App">
+  <> <div className="App">
       <header className="App-header">
-        <div>Welcome to MERN Stack Session</div>
+        <div className="title-text">Welcome to MERN Stack Session</div>
         <div><b>We are currently building our second project in React</b></div>
         <div>End of Session</div>
       </header>

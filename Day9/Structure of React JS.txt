@@ -1,0 +1,23 @@
+public -> index.html (div id="root")
+
+
+
+src -> index.js  -> const root=document.getElementById("root")
+			root.render(<App/>)
+
+    -> App.js  => 
+
+1.function App 
+2. return ()
+3. export default App
+
+
+    -> Header.js
+
+1.function Header 
+2. return ()
+3. export default Header
+
+
+    -> Contactus.js
+    -> Footer.js

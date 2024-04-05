@@ -3,7 +3,7 @@ import './Colors.css';
 
 function Color(){
 
-    const [color, setColor] = useState("violet"); 
+    const [color, setColor] = useState("brown"); 
 
     return (
      <> <h1 className={color}>My Favorite color is {color}</h1>

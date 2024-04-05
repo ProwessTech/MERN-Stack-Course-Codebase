@@ -1,0 +1,5 @@
+Day 11 Tasks:
+
+1. Use useState Hook and useEffect Hook to fetch live IPL Score from API and generate Score values in Dashboard
+
+2. useContext Hook - Syntax tryout in an example

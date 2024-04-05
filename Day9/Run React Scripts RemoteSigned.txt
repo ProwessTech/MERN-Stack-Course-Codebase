@@ -1,0 +1,8 @@
+
+Error: Running Scripts Disabled in the System
+
+
+1. Run PowerShell as Administrator
+2. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+

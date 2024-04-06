@@ -19,7 +19,7 @@ function DailyAdvice() {
         }
 
         fetchAdvice();
-    }, []);
+    },[]);
 
 
     return (

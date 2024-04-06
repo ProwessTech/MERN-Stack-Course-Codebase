@@ -1,0 +1,4 @@
+Day 12:
+
+1. Try to use useCallback function in a Calculator
+2. Try to create the API in OpenWeatherAPI Key

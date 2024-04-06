@@ -1,19 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import User from './User';
-import Contact from './Contact';
+import Dashboard from './Dashboard';
 
 function App() {
-
-
   return (
     <div className="App">
       <header className="App-header">
-        
-        <User/>
-
-        <Contact/>
-     {/*   <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -24,10 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> */ }
-
-
-
+        </a> */}
+        <Dashboard/>
       </header>
     </div>
   );

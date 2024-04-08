@@ -1,0 +1,4 @@
+Day13 Tasks:
+
+1. Try to create a Weather Dashboard to showcase the current weather with different icons
+2. Try to refer GeoDB Cities API

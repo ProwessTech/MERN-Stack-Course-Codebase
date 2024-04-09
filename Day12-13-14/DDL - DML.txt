@@ -1,0 +1,3 @@
+DDL -> Data Definition Language (Database / Table)
+
+DML -> Data Manipulation Language (Table)

@@ -1,0 +1,4 @@
+Day 14 Tasks:
+
+1. Weather Dashboard with City Search API using GeoDB
+2. MongoDB basics -> Document, Collection, field

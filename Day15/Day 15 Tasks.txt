@@ -1,0 +1,5 @@
+Day 15 Tasks:
+1. Create MongoDB account, install Compass
+2. Connect with VS Code
+3. Run DB Queries
+4. Create a sample collection in your name and try to add a document of your choice

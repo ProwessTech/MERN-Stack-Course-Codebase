@@ -1,0 +1,116 @@
+use esecdb
+
+db.createCollection("students")
+
+db.students.insertOne({name: "Student1", age: 25, department: "CSE"})
+
+db.students.find()
+
+db.students.insertMany([
+{name: "Student3", age: 25, department: "AI"},
+{name: "Student4", age: 25, department: "DS"}
+])
+
+
+db.students.insertOne({name: "Student5", age: 26, department: "CSE", dateJoined: new Date()})
+
+db.students.insertOne({name: "Student6", age: 26, department: "CSE", dateJoined: new Date("2024-04-12T20:16:00")})
+
+
+db.students.insertOne({name: "Student7", age: 26, department: "CSE",
+interests: ["AI", "ML", "Flutter", "React", "MERN", "MEAN"] })
+
+
+db.students.insertOne({name: "Student8", age: 26, department: "CSE",
+interests: ["AI", "ML", "Flutter", "React", "MERN", "MEAN"] ,
+address: {
+	street: "No 5",
+	city: "Seattle",
+	Country: "US",
+	zipcode: 132434
+}
+})
+
+
+db.students.insertOne({name: "Student9", age: 26, department: "CSE",
+interests: ["AI", "ML", "Flutter", "React", "MERN", "MEAN"] ,
+address: [{street: "No 5",city: "Seattle",Country: "US",zipcode: 132434},
+	  {street: "No 8",city: "Texas",Country: "US",zipcode: 5669878}]
+})
+
+
+db.students.find().sort({name:1})
+
+db.students.find().sort({name:-1})
+
+
+db.students.find().sort({name:-1}).limit(1)
+
+find({query}, {projection})
+
+db.students.find({}, {_id:false})
+
+
+db.students.find({}, {_id:false, name: true})
+
+db.students.find({}, {_id:false, name: true, department: true})
+
+db.students.find({age: {"$gt": 25}},{_id:false, name:true, age:true})
+
+db.students.find({age: {"$gte": 25}},{_id:false, name:true, age:true})
+
+
+db.students.deleteOne(
+
+
+select name, department from students;
+db.students.find({query}, {projection})
+{query} -> where
+{projection} -> select columns
+
+
+
+updateOne(filter,update)
+
+db.students.updateOne({name:"Student8"}, {$set: {department:"IT"}})
+
+
+db.students.updateMany({}, {$set: {status:"Placed"}})
+
+db.students.updateMany({}, {$set: {location:"Erode"}})
+
+db.students.updateMany({name: "Student9"}, {$set: {location:"Coimbatore"}})
+
+db.students.find({name: "Student9"})
+
+
+$gt
+
+$gte
+
+db.students.find({age: {"$gt": 25}})
+
+db.students.insertOne({name: "Student10"})
+
+db.students.deleteOne({name: "Student10"})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

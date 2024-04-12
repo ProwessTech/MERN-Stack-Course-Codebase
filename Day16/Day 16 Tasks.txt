@@ -1,0 +1,12 @@
+Day 16 Tasks:
+1. Connect to your MongoDB
+2. Create a DB
+3. Create a Collection
+4. Create multiple documents
+5. Find documents
+6. Update Document(s)
+7. Delete Document(s)
+
+
+Reference MongoDB Link:
+https://www.mongodb.com/docs/manual/reference/method/db.collection.find/

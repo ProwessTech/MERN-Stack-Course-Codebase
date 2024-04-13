@@ -60,10 +60,10 @@ db.students.find({age: {"$gt": 25}},{_id:false, name:true, age:true})
 db.students.find({age: {"$gte": 25}},{_id:false, name:true, age:true})
 
 
-db.students.deleteOne(
+//db.students.deleteOne(
 
 
-select name, department from students;
+// select name, department from students;
 db.students.find({query}, {projection})
 {query} -> where
 {projection} -> select columns

@@ -1,3 +1,0 @@
-Final Day Task:
-
-1. Create a Note Taker Application using MERN Stack with appealing UI 

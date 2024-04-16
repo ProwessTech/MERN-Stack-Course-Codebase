@@ -17,12 +17,12 @@ var mongoDBConnection = 'mongodb+srv://esecuser:%40sec123@clusteresec.cyabfap.mo
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(mongoDBConnection).then(
+mongoose.connect(mongoDBConnection, { useNewUrlParser : true }).then(
     () => {console.log('Connected!')},
     err => {console.log('Error Occurred while connecting to Database' +err)}
 );
 
-const employeeRoute = require('../Routes/Employee.route');
+const employeeRoutes = require('../Routes/Employee.route');
 
 
 app.use(cors());

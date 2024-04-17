@@ -1,1 +1,0 @@
-1. Create a Notes application with CRUD Operations with appealing user interface
